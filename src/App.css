@@ -1,0 +1,59 @@
+body{
+  background-image: url("https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2565&q=80");
+    background-size: cover;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+h1{
+  background: whitesmoke;
+}
+
+.MyCard{
+  border: 1px solid black;
+  width: 50%;
+  padding: 2.5rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: whitesmoke;
+}
+
+.FollowerCardContainer{
+  border: 1px solid black;
+  background: whitesmoke;
+  width: 50%;
+  padding: 2.5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.FollowerCard{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+padding: 2rem;
+}
